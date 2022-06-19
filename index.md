@@ -1,20 +1,7 @@
-## 義守大學通訊工程系2020年第一學期 Java程式規劃課程資訊
+## 關於108程式教室
 
-### 期中考試程式實作題目補考網址[點這裡](https://docs.google.com/forms/d/e/1FAIpQLSdWnZMLskrc0MNKshpHCr96BsG6jxJHrg1IgvnyBuPtnCsLFQ/viewform?usp=sf_link),截止時間2020/11/10 23:00 
-### 課程相關資訊, 點[這裡](https://ypnie108.github.io/2020ISU/contents)
+###  簡介
 
-### 週作業
-
-   - [作業一](https://ypnie108.github.io/2020ISU/homework1)
-   - [作業二](https://ypnie108.github.io/2020ISU/homework2)
-   - [作業三](https://ypnie108.github.io/2020ISU/homework3)
-   - [作業四](https://ypnie108.github.io/2020ISU/homework4)
-   - [作業五](https://ypnie108.github.io/2020ISU/homework5)
-   - [作業六](https://ypnie108.github.io/2020ISU/homework6)
-   - [作業七](https://ypnie108.github.io/2020ISU/homework7)
-   - [作業八](https://ypnie108.github.io/2020ISU/homework8)
-   - [作業九](https://ypnie108.github.io/2020ISU/homework9)
-   - [作業十](https://ypnie108.github.io/2020ISU/homework10)
-   - [作業十一](https://ypnie108.github.io/2020ISU/homework11)
-   - [作業十二](https://ypnie108.github.io/2020ISU/homework12)
- 
+嗨！ 各位喜歡程式語言的朋友們大家好！我是108程式教室的班主任 YuPeng. 我在程式語言的世界裏鑽研了許多年, 希望能在這裏把我學習與使用的一些心得與有興趣的朋友們一同分享.
+在過去這些年中, 我主要使用的語言包括Java, Python, C, C++等語言. 我計劃在這個園地以及同名的YouTube頻道裏, 將關於這些語言或軟體技術的一些knowhow以文章或視頻的方式分享給大家.
+也打算規劃相關的語言課程. 希望有興趣的夥伴們常常來我的這個園地留言討論或訂閲我的YouTube頻道. 感謝大家的支持！也預祝各位夥伴們在軟體語言這條學習的道路上一切順利, 收穫滿滿!
