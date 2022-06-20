@@ -22,8 +22,8 @@ title: 108程式教室
 email: ypnie108@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   提供程式語言自學課程, 技術分享, 交流, 推廣.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/classroom" # the subpath of your site, e.g. /blog
+url: "https://ypnie108.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: YuPengNie
 github_username:  ypnie108
 show_excerpts: true
