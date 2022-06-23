@@ -2,8 +2,10 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2022-06-20 08:44:26 +0800
-categories: jekyll update
-featured_image: featured-image.jpg
+last_modified_at: 2022-01-14
+cover_image: 108class.png
+author: YP Nieh
+categories: git tool
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
