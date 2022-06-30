@@ -9,7 +9,7 @@ categories: Java
 tags: ExecutorService
 ---
 
-今天跟大家介紹`java.util.concurrent.ExecutorService`,  這個主題將分別在上下兩篇文章中做介紹. 上篇即是本片文章, 下篇請見[連結]({{ site.baseurl }}{% post_url 2022-06-30-java_executor_service %}).
+今天跟大家介紹`java.util.concurrent.ExecutorService`,  這個主題將分上下兩部分做介紹. 本文章是上半部分, 下半部分請見[連結]({{ site.baseurl }}{% post_url 2022-06-30-java_executor_service %}).
 
 `ExecutorService`是Java 5版本之後推出的執行緒（`Thread`, 亦稱為`綫程`, 本文就直接用英文`thread`稱之）執行機制. 在Java 5之前, 要使用多執行緒（multi-threading）, 必須直接使用Thread相關的APIs, 要注意的細節較多, 屬於較爲低階的APIs.
 而Java 5推出的`ExecutorService`則提供較爲高階的APIs, 主要是將要執行的工作(task)與Thread生命周期的管理工作分開, 適合用於大型的專案開發.
@@ -95,8 +95,8 @@ public class ExampleRunnable implements Runnable {
 
 Note:
 - 建構子中傳入`name`: thread 名稱, `len`: 列印的數字長度
-- `run()`: 呼叫`Thread.sleep()`讓正在執行的thread休息, 停止執行5 msec
-- `Thread.sleep()`會偵測中斷訊號(interrupt). 若被中斷, 會丟出`InterruptedException`,然後清除中斷狀態(`interrupted status`). 所以如果它被中斷, run()就會馬上回傳, 該thread即停止執行.
+- `run()`: 呼叫`Thread.sleep(5)`讓正在執行的thread休息, 停止執行5 msec
+- `Thread.sleep()`會偵測中斷訊號(interrupt). 若被中斷, 會丟出`InterruptedException`,然後清除中斷狀態(`interrupted status`), 於是run()就會回傳, 該thread即停止執行.
 
 再看main class `ExecutorExample`, 我們先不去做shutdown.
 
@@ -151,4 +151,13 @@ Exception in thread "main" java.util.concurrent.RejectedExecutionException: Task
 	at com.example.ExecutorExample.main(ExecutorExample.java:14)
  ```
 
-上篇到此結束.
+## 再進一步
+
+以下問題可以進一步思考看看：
+- 如果使用Executors.newFixedThreadPool​(2)來產生Thread pool, 并且同樣沒有呼叫shutdown(), JVM的threads的執行歷程狀況會跟使用newCachedThreadPool()有何明顯不同?
+
+
+
+
+
+第一部分到此結束.
