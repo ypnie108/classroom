@@ -9,7 +9,7 @@ categories: Java
 tags: ExecutorService
 ---
 
-今天跟大家介紹`java.util.concurrent.ExecutorService`,  這個主題將分別在上下兩篇文章中做介紹. 下篇即是本片文章, 上篇請見[連結]({%- link _posts/2022-06-29-java_executor_service.markdown -%}) or [連結]({%- post_url 2022-06-29-java_executor_service -%}).
+今天跟大家介紹`java.util.concurrent.ExecutorService`,  這個主題將分別在上下兩篇文章中做介紹. 下篇即是本片文章, 上篇請見[連結]({{ site.baseurl }}{% link _posts/2022-06-29-java_executor_service.markdown %}) or [連結]({{ site.baseurl }}{% post_url 2022-06-29-java_executor_service %}).
 
 
 `ExecutorService`是Java 5版本之後推出的執行緒（`Thread`, 亦稱為`綫程`, 本文就直接用英文`thread`稱之）執行機制. 在Java 5之前, 要使用多執行緒（multi-threading）, 必須直接使用Thread相關的APIs, 要注意的細節較多, 屬於較爲低階的APIs.
