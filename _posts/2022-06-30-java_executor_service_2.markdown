@@ -94,9 +94,9 @@ public class ExecutorExample2 {
             System.out.println(terminated ? "This executor terminated" : "The timeout elapsed before termination");
             if (terminated) {
                 Integer result1 = f1.get();
-                System.out.println("Result of one: " + result1);
+                System.out.println("Result of First: " + result1);
                 Integer result2 = f2.get();
-                System.out.println("Result of two: " + result2);
+                System.out.println("Result of Second: " + result2);
             } else{
                 es.shutdownNow();
             }
