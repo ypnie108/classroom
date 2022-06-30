@@ -156,8 +156,4 @@ Exception in thread "main" java.util.concurrent.RejectedExecutionException: Task
 以下問題可以進一步思考看看：
 - 如果使用Executors.newFixedThreadPool​(2)來產生Thread pool, 并且同樣沒有呼叫shutdown(), JVM的threads的執行歷程狀況會跟使用newCachedThreadPool()有何明顯不同?
 
-
-
-
-
 第一部分到此結束.
