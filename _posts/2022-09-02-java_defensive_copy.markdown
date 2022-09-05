@@ -17,7 +17,7 @@ tags: clone
 
 ## 方法參數輸入mutable物件
 
-針對mutable的物件屬性, 無論是在建構子或者`setDueDate()` setter方法中, 如果有傳入物件參考, 則必須先複製物件內容(deep copy)再做指定. 例如, 以下範例的`java.util.Date`型態的`dueDate`物件屬性, 利用`new Date(dueDate.getTime())`產生複製物件, 然後再做指定.
+針對mutable的物件屬性, 無論是在建構子或者setter方法中, 如果想傳入物件參考去做指定, 則必須先複製物件內容(deep copy)再做指定. 例如, 以下範例的`java.util.Date`型態的`dueDate`物件屬性, 在建構子或`setDueDate()` 方法中, 利用`new Date(dueDate.getTime())`產生複製物件, 然後再做指定.
 
 {% highlight java linenos %}
 import java.util.Date; //mutable type
