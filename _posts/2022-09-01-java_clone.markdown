@@ -82,7 +82,7 @@ public Object clone() throws CloneNotSupportedException {
 
 ### 子類別利用clone()破壞父類別的內部狀態的不變性
 
-如果一個類別可以被繼承, 則可能讓有心人士透過繼承的子類別實作`clone()`, 對目標物件做shallow copy. 有可能破壞目標物件的內部狀態的不變性(invariants). 例如：
+如果一個類別可以被繼承, 則可能讓有心人士透過繼承的子類別實作`clone()`, 對目標物件的mutable物件屬性做shallow copy. 有可能破壞目標物件的內部狀態的不變性(invariants). 例如：
 
 {% highlight java linenos %}
 public class MyVulnerableClass {
